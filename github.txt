@@ -1,0 +1,46 @@
+
+Copilot Search Branding
+
+Like
+
+Dislike
+Git notes let you attach additional metadata—like comments, test results, or review info—to any Git object (usually commits) without modifying the object itself. They are stored under refs/notes/ and can be added, viewed, copied, appended, edited, or removed using the git notes subcommands.
+What Git Notes Are
+Git notes are annotations stored separately from commit history. They do not change commit hashes and are ideal for supplemental information such as CI results, bug references, or code review metadata. 
+DEV Community
+DEV Community
+
+How Git Notes Work
+Notes are stored as blobs in the Git object database.
+Each note is mapped to an object SHA-1 via a tree under refs/notes/commits.
+Updating notes creates a new commit in the notes ref.
+DEV Community
+DEV Community
+Common Commands
+Add a note:
+Bash
+
+Copy
+git notes add -m "Your note"
+Show a note:
+Bash
+
+Copy
+git notes show <object>
+Edit a note:
+Bash
+
+Copy
+git notes edit <object>
+Remove a note:
+Bash
+
+Copy
+git notes remove <object>
+List notes:
+Bash
+
+Copy
+git notes list
+Git
+Git
