@@ -1,0 +1,20 @@
+Git and GitHub Notes
+Git is a distributed version control system that tracks changes in code, enabling collaboration and efficient project management. GitHub, built on Git, is a cloud-based platform for hosting, sharing, and reviewing code, making it essential for modern software development.
+
+
+Key Git Concepts
+Repository: A directory where Git tracks project files and their revision history.
+
+Clone: Creates a local copy of a remote repository.
+
+Stage: Selects changes to include in the next commit.
+
+Commit: Records staged changes as a permanent version.
+
+Branch: Allows isolated development of features or fixes.
+
+Merge: Combines changes from one branch into another.
+
+Pull: Fetches and applies updates from a remote repository.
+
+Push: Uploads local commits to a remote repository.
